@@ -5,4 +5,6 @@ window.onload = () => {
             el: '.swiper-pagination',
         },
     })
+
+    let bscroll = new BScroll(".bscroll")
 }

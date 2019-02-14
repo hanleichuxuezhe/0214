@@ -66,4 +66,39 @@ section {
             }
         }
     }
+
+    .section-list {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .section-list-button {
+            width: 100%;
+            height: pxTorem(44px);
+            display: flex;
+
+            div {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+        }
+        .bscroll{
+            flex:1;
+            width: 100%;
+            overflow: hidden;
+            div div{
+                width: 100%;
+                height: pxTorem(100px);
+                margin-bottom: pxTorem(10px);
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }
